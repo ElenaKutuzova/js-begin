@@ -41,8 +41,8 @@
   stars.forEach(star => star.addEventListener('mouseover', event => {
     star = event.target;
     do {
-    star.classList.add('golden');  
-    star = star.previousElementSibling;
+      star.classList.add('golden');  
+      star = star.previousElementSibling;
     } while (star);
   }));
 
@@ -54,8 +54,8 @@
    stars.forEach(star => star.addEventListener('mouseout', event => {
     star = event.target;
     do {
-    star.classList.remove('golden');  
-    star = star.previousElementSibling;
+      star.classList.remove('golden');  
+      star = star.previousElementSibling;
     } while (star);
   }));
 
